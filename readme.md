@@ -5,7 +5,7 @@
 Ce `readme.md` permet d'expliquer comment exécuter les résultats attendus en local mais aussi depuis l'interface web GitHub.
 
 ## Prérequis
-1. Créer votre compte sur [lien](https://github.com).
+1. Créer votre compte sur [GitHub](https://github.com).
 2. Configurer Git : 
  ```
  git config --global user.name "Prenom Nom"  
@@ -14,10 +14,10 @@ Ce `readme.md` permet d'expliquer comment exécuter les résultats attendus en l
 3. Vérifier que Git est bien installé : `git --version`.
 
 
-##Etapes du projet
+## Etapes du projet
 
 *Question 1:* Afin de forker le dépôt sur notre compte GitHub, il est nécessaire de :
-- aller sur le lien suivant : [lien](https://github.com/ambalde/MoSEF-projet-2018)
+- aller sur le lien suivant : [https://github.com/ambalde/MoSEF-projet-2018](https://github.com/ambalde/MoSEF-projet-2018)
 - cliquer sur "Fork" (situé en haut à droite) afin de copier un repo d'un autre compte, ici celui de **ambalde**, sur notre propre compte.
 
 
@@ -32,23 +32,15 @@ git clone https://github.com/hatun1903/MoSEF-projet-2018.git
 ```
 
   
-*Question 3:* On crée le script `fich_semaine_derniere.sh` grâce à la commande 
-```
-vim
-```
-- Attention : ne pas oublier d'indiquer au début le shell utilisé, ici il s'agira de
-```
-bash
-```
+*Question 3:* On crée le script `fich_semaine_derniere.sh` grâce à la commande `vim` qui est un éditeur de texte. 
+- Attention : ne pas oublier d'indiquer au début le shell utilisé, il s'agira de `bash` ici.
 - On utilise une variable d'environnement pour afficher le nom de l'utilisateur, l'heure et la date.
-- Enfin pour lancer ce fichier, il suffit d'utiliser la commande `bash` ou encore la commande 
-```
-chmod
-```
+- Enfin pour lancer ce fichier, il suffit d'utiliser la commande `chmod` ou plus particulièrement la commande `bash` directement.
+
 Une fois le script éxecuté, ce dernier annonce le moment de son éxécution (date et heure) tout en souhaitant la bienvenue à l'utilisateur qu'il l'a lancé. Il lui demandera par la suite quel répertoire l'intéresse et affichera le répertoire fourni.
 
 
-*Question 4:* Tout d'abord, on pousse le script dans la zone de transit 
+*Question 4:* Tout d'abord, on pousse le script dans la zone de transit : 
 ``` 
 git add fich_semaine_derniere.sh 
 ```
